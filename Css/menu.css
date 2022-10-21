@@ -1,0 +1,342 @@
+.fixed-nav{
+    width: 100%;
+}
+
+.nav-fixed{
+    position: relative;
+}
+
+.secondary-nav{
+    position: relative;
+    z-index: -1;
+    width: 100%;
+    background-color: rgb(248, 248, 248);
+    display: flex;
+    border-bottom: 0.5px solid rgb(207, 205, 205);
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.sec-nav{
+    width: 100%;
+    margin: 0px 3.5vw;
+}
+
+
+
+.sec-nav ul{
+    margin-left: 80px;
+    display: flex;
+    list-style-type: none;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.sec-nav ul li{
+    padding: 15px 0px 15px 17px;
+}
+#ist{
+    margin-left: 80px;
+}
+
+.sec-nav ul li a{
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    padding: 5px 0px;
+    color: black;
+    text-decoration: none;
+}
+
+.sec-nav ul li .active-link{
+    border-bottom: 1px solid black;
+}
+
+.content{
+    margin: 0px 80px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.content-left{
+    display: none;
+}
+
+
+
+.list-container{
+    max-width: 180px;
+}
+
+.list-m-head{
+    margin-top: 30px;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.list{
+   
+    list-style-type: none;
+}
+
+.list li{
+    padding: 10px 0px;
+}
+
+
+.list li a{
+    font-size: 16px;
+    text-decoration: none;
+    color: rgba(0,0,0,.58);
+}
+
+.list li a:hover{
+    color: rgba(0,0,0,.87);
+}
+
+
+
+
+
+
+#menu{
+    font-size: 28px;
+    margin-top: 50px;
+}
+
+.title{
+    font-size: 24px;
+}
+
+.right-content{
+    max-width: 100%;
+}
+
+.icon-container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    
+}
+
+.icon-container a{
+    text-decoration: none;
+    color: black;
+}
+
+.icon-label{
+    cursor: pointer;
+    width: auto;
+    margin: 20px 0px 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+
+.icon{
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+}
+
+.icon-para{
+    max-width: 60%;
+    font-size: 20px;
+    padding: 5px 12px;
+}
+
+hr{
+    margin: 10px 0px;
+    border: 0.1px solid rgb(201, 201, 201);
+}
+
+
+.footer-fixed{
+    position: fixed;
+    bottom: 0%;
+    padding: 10px;
+    width: 100%;
+    background-color: #1e3932;
+}
+.inner-footer{
+    display: flex;
+    width: 100%;
+    margin: 0px 80px;
+    align-items: center;
+    justify-content: space-between;
+}
+.packet{
+    cursor: pointer;
+    padding: 12px 0px 6px 0px;
+    border-bottom: 1px solid rgb(206, 206, 206);
+}
+
+.inner-footer a{
+    text-decoration: none;
+}
+.inner-footer i{
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 30px;
+    color: rgb(190, 190, 190);
+}
+
+#top-p{
+    color: rgb(190, 190, 190);
+    font-size: 15px;
+}
+#bottom-p{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 600;
+    margin: 2px 0px;
+}
+
+.space{
+    height: 100px;
+}
+
+.p-head{
+    display: flex;
+}
+
+.p-head i{
+    font-size: 16px;
+}
+
+.outer-container{
+    margin: 0px 3.5vw;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+.bt-footer{
+    margin: 0vw 3.5vw;
+}
+
+.bt-link-contain{
+    margin-left: 80px;
+}
+
+
+.inner-space{
+    margin: 0px 3.5vw;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+
+
+@media  screen and (min-width:1024px) {
+    .nav-fixed{
+        position: fixed;
+    }
+
+    .right-content{
+        max-width: 75%;
+    }
+    
+    .secondary-nav{
+        position: fixed;
+        align-items: flex-start;
+    }
+    .sec-nav ul{
+        margin-top: 20px;
+        padding: 6.2vw 0vw 0.4vw 0vw;
+    }
+
+    .content{
+        margin-top: 14vw;
+    }
+
+    
+
+    .top{
+        padding-top: 20px;
+    }
+
+    .menu{
+        padding-top: 20px;
+    }
+
+    .content-left{
+        display: block;
+    }
+    .icon-label{
+        width: 330px;
+        
+    }
+   
+    
+}
+
+@media screen and (max-width:1259px) {
+    .icon-label{
+        width: 260px;
+        
+    }
+}
+
+@media  screen and (max-width:838px){
+    .icon-label{
+        width: 280px;
+        
+    }
+}
+
+@media  screen and (max-width:1023px){
+    .icon-label{
+        width: 310px;
+        
+    }
+    .icon {
+        width: 80px;
+        height: 80px;
+    }
+    .bt-link-contain {
+        margin-left: 0px; 
+   }
+    
+}
+
+
+
+
+
+
+
+@media screen and (max-width:799px) {
+    .secondary-nav{
+        display: none;
+    }
+
+    .content{
+        margin: 0px 0px;
+    }
+
+    .bt-link-contain {
+         margin-left: 0px; 
+    }
+
+    
+}

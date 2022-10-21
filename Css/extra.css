@@ -1,0 +1,58 @@
+.title-p{
+    padding-top: 10px;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+.img-e{
+    margin: 8px 0px;
+}
+
+.title-m{
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+
+.def-p{
+    font-size: 19px;
+    color: rgba(0,0,0,.58);
+    padding: 10px 0px;
+}
+
+.nav-list-e{
+    display: flex;
+    list-style: none;
+}
+
+.min-item-e{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-bttn-e{
+    background-color: transparent;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 20px;
+    font-size: 16px;
+    padding: 6px 16px;
+    cursor: pointer;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.sign-in-e:hover{
+   background-color: rgba(0,0,0,.06);
+}
+
+.join-e{
+    background-color: black;
+    color:white;
+}
+
+.join-e:hover{
+    background-color: rgba(0,0,0,.7);
+    border-color: rgba(0,0,0,.7);
+}
