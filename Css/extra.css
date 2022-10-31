@@ -9,12 +9,14 @@
 }
 
 .title-m{
+    width: 70%;
     font-size: 28px;
     letter-spacing: 1px;
 }
 
 .def-p{
     font-size: 19px;
+    width: 70%;
     color: rgba(0,0,0,.58);
     padding: 10px 0px;
 }
